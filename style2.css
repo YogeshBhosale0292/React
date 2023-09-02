@@ -1,0 +1,25 @@
+/* div  > p
+{
+    border: 2px solid blue;
+} */
+
+
+/* div  p
+{
+    border: 2px solid blue;
+} */
+
+/* div + p
+{
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+    color: yellow;
+} */
+div ~ p
+{
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+    color: yellow;
+}

@@ -1,0 +1,33 @@
+/* selector
+{
+    propertyname:value;
+    propertyname:value;
+
+} */
+ 
+/* body{ 
+    
+  
+    
+    background-attachment: fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:aliceblue;
+}  */
+
+/* 
+div>p{
+    border: 2px solid blue;
+} */
+
+ 
+div ~ p
+{
+    border: 2px solid yellowgreen;
+     border-radius: 10px; 
+    border-top-left-radius: 10px;
+}
+
+
+
